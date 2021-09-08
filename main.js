@@ -18,10 +18,19 @@ fetch("https://corona-virus-world-and-india-data.p.rapidapi.com/api", {
     console.log(data)
 
 
-    
+    var t = document.getElementById("abc");
+
+
+  var x = t.insertRow();
+
+  var cell0 = x.insertCell();
+  cell0.innerHTML = data.world_total.total_cases;
+  var cell1 = x.insertCell();
+  cell1.innerHTML = data.world_total.active_cases;
+  var cell2 = x.insertCell();
+  cell2.innerHTML = data.world_total.total_deaths;
+
 var t = document.getElementById("myData");
-
-
 
 for(var i=0; i<data.countries_stat.length; i++){
   var r = t.insertRow();

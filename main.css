@@ -8,7 +8,7 @@ table {
     padding: 15px;
   }
   
-  tr:nth-child(even) {background-color: rgba(211, 211, 211, 0.658);}
+  tr:nth-child(even) {background-color: rgba(211, 211, 211, 0.479);}
   
   tr:hover {background-color: greenyellow;}
 
