@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="tableManager.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>covid19api</title>
+</head>
+<body >
+    
+        <h1 style="color: rgba(40, 19, 43, 0.904);"> <center><u>CORONA VIRUS DATA </u></center></h1>
+   
+    
+    <div style="overflow-x:auto;">
+    <table border="6" class="tablemanager"  >
+        <thead>
+            <tr bgcolor="skyblue" >
+                <th>SR NO.</th>
+                <th>COUNTRY NAME</th>
+                <th>CASES</th>
+                <th>ACTIVE CASES</th>
+                <th>DEATHS</th>
+                <th>DEATHS PER 1M POPULATION</th>  
+                <th>NEW CASES</th>
+                <th>NEW DEATHS</th>
+                <th>SERIOUS CRITICAL</th>
+                <th>TESTS PER 1M POPULATION</th>
+                <th>TOTAL CASES PER 1M POPULATION</th>
+                <th>TOTAL RECOVERED</th>
+                <th> TOTAL TESTS</th>
+
+            </tr>
+        </thead>
+
+        <tbody id="myData">
+            
+        </tbody>
+
+        
+    </table>
+</div>
+    <script src="main.js"></script>
+
+   
+
+</body>
+</html>
